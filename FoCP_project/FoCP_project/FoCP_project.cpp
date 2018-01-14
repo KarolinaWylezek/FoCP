@@ -49,14 +49,11 @@ public:
 int main()
 {
 	string expressionToCalc;
-	char expression[255];
 	string reversedPolishNotation[255];
-	char onp[255];
 	Stack stack;
 	//get expression from the user
 	cin >> expressionToCalc;
 	expressionToCalc += '\0';
-	fgets(expression, 255, stdin);
 	int onp_iterator = 0;
 	string helper = "";
 	for (int i = 1; i<expressionToCalc.length(); i++)
