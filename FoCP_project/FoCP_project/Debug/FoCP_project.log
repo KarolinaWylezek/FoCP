@@ -1,0 +1,5 @@
+﻿  stdafx.cpp
+  FoCP_project.cpp
+c:\users\paweł\documents\visual studio 2015\projects\focp\focp_project\focp_project\focp_project.cpp(59): warning C4018: '<': signed/unsigned mismatch
+  FoCP_project.vcxproj -> C:\Users\Paweł\Documents\Visual Studio 2015\Projects\FoCP\FoCP_project\Debug\FoCP_project.exe
+  FoCP_project.vcxproj -> C:\Users\Paweł\Documents\Visual Studio 2015\Projects\FoCP\FoCP_project\Debug\FoCP_project.pdb (Full PDB)

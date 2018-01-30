@@ -48,7 +48,9 @@ public:
 
 int main()
 {
+	//expresion given by the user
 	string expressionToCalc;
+	//array to store eqation in RPN
 	string reversedPolishNotation[255];
 	Stack stack;
 	//get expression from the user
@@ -56,6 +58,7 @@ int main()
 	expressionToCalc += '\0';
 	int onp_iterator = 0;
 	string helper = "";
+	//implementation of the algorithm of transformation to RPN
 	for (int i = 1; i<expressionToCalc.length(); i++)
 	{
 		char character = expressionToCalc[i - 1];
@@ -118,7 +121,7 @@ int main()
 	string s = "\0";
 	reversedPolishNotation[onp_iterator] = s;
 
-	//TODO CALCULATION
+	// calculate value of an expression represented in array
 	bool flag = true;
 	while (flag) {
 		for (int i = 0; i<255; i++)
